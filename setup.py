@@ -14,9 +14,9 @@ setup(
     description="TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution) is a multi-criteria decision-making method that ranks alternatives based on their closeness to the ideal solution.",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/uditvashisht/saral-square",
-    author="Udit Vashisht",
-    author_email="admin@saralgyaan.com",
+    url="https://github.com/gautamdhw/Topsis-Gautam-102203061",
+    author="Gautam",
+    author_email="gautamdhawan910@gmail.com",
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
@@ -24,12 +24,12 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
     ],
-    packages=["square"],
+    packages=["topsis"],
     include_package_data=True,
     install_requires=[],
     entry_points={
         "console_scripts": [
-            "square=square.__main__:main",
+            "topsis=topsis.__main__:main",
         ]
     },
 )
